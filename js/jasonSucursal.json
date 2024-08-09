@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "horario": "13:00",
+        "nombre": "Altacia",
+        "direccion": "colinas del sopas",
+        "latitud": "123.25.26",
+        "longitud": "256.24.58",
+        "url": "https://www.zarapealtacia.com.mx/",
+        "imagen": ""
+    },
+    {
+        "id": "2",
+        "horario": "14:00",
+        "nombre": "Centro Max",
+        "direccion": "colinas de noe",
+        "latitud": "148.69.57",
+        "longitud": "456.25.32",
+        "url": "https://www.zarapecentromax.com.mx/",
+        "imagen": ""
+    }
+]

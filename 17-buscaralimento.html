@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Alimento</title>
+    <link rel="stylesheet" href="css/estiloos.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box11">
+            
+            <div class="logo2">
+                <img src="imagenes/logozap.png" alt="Logo">
+            </div>
+            
+            <div class="login-box22">
+                
+                <a href="15-alimento.html" class="back-icon2">
+                    <img src="imagenes/flecha.png" alt="Volver">
+                </a>
+                
+                <h2>Buscar Alimento</h2><br><br><br><br><br>
+                
+                <form action="18-informacionalimento.html" method="GET">
+                    <div class="input-groupBuscBebida">
+                        <label for="nombre">
+                            <img src="imagenes/icononombre.png" alt="Nombre" class="icon">    
+                            Nombre:
+                        </label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+
+                    <div class="input-groupBuscBebida">
+                        <label for="precio">
+                            <img src="imagenes/iconoprecio.png" alt="Precio" class="icon">    
+                            Precio:
+                        </label>
+                        <input type="text" id="precio" name="precio">
+                    </div>
+                    
+                    <div class="input-groupBuscBebida">
+                        <label for="categoria">
+                            <img src="imagenes/iconocategoria.png" alt="Categoría" class="icon">    
+                            Categoría:
+                        </label>
+                        <select id="categoria" name="categoria" class="selectgroupBuscBebida">
+                            <option value="">Selecciona una categoría</option>
+                            <option value="Comida caliente">Comida caliente</option>
+                            <option value="Comida fria">Comida fria</option>
+                            <option value="Comida sin gluten">Comida sin gluten</option>
+                        </select>
+                    </div>
+                        
+                    <button type="submit" class="buttonBuscBebida2">Buscar</button>
+                </form>
+                
+                <a href="15-alimento.html" class="buttonInicioBebida">Inicio</a><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

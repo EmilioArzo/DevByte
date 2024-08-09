@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Sucursal</title>
+    <link rel="stylesheet" href="css/estiloos-sucursal.css">
+</head>
+<body>
+    <div class="division">
+        <div class="main-content">    
+            <div class="login-container">
+                <div class="login-box11">
+                    <div class="logo2">
+                        <img src="imagenes/logozap.png" alt="Logo">
+                    </div>
+                    <div class="login-box22">
+                        <a href="08-informacionSucursal.html" class="back-icon2">
+                            <img src="imagenes/flecha.png" alt="Volver">
+                        </a>
+                        <h2>Registrar Sucursal</h2><br><br><br>
+                        <div class="form-container">
+                            <form id="dataForm">                    
+                                <div class="input-group2">
+                                    <label for="id">
+                                    <img src="imagenes/iconoid.png" alt="" class="icon">    
+                                    ID:</label>
+                                    <input type="number" id="id" required readonly disabled="">
+                                </div>
+                                <div class="input-group2">
+                                    <label for="horario">
+                                    <img src="imagenes/iconohorario.png" alt="" class="icon">    
+                                    Horario:</label>
+                                    <input type="time" id="horario" required>
+                                </div>
+                                <div class="input-group2">
+                                    <label for="nombre">
+                                    <img src="imagenes/icononombre.png" alt="" class="icon">    
+                                    Nombre:</label>
+                                    <input type="text" id="nombre" required>
+                                </div>
+                                <div class="input-group2">
+                                    <label for="direccion">
+                                    <img src="imagenes/iconoubicacion.png" alt="" class="icon">    
+                                    Dirección:</label>
+                                    <input type="text" id="direccion" required>
+                                </div>
+                                <div class="input-group2">
+                                    <label for="latitud">
+                                    <img src="imagenes/latitud.png" alt="" class="icon">    
+                                    Latitud:</label>
+                                    <input type="text" id="latitud" required>
+                                </div>
+                                <div class="input-group2">
+                                    <label for="longitud">
+                                    <img src="imagenes/latitud.png" alt="" class="icon">    
+                                    Longitud:</label>
+                                    <input type="text" id="longitud" required>
+                                </div>
+                                <div class="input-group2">
+                                    <label for="url">
+                                    <img src="imagenes/iconourl.png" alt="" class="icon">    
+                                    URL:</label>
+                                    <input type="url" id="url" required>
+                                </div>
+                                
+                                <div>
+                                    <label for="imagen" class="imglabel">
+                                    <img src="imagenes/subirimagen.png" alt="Imagen" class="imgreg2">    
+                                    Imagen:</label>
+                                    <input type="file" id="imagen" name="imagen" accept="image/*" class="ola">
+                                </div>
+                                
+                                <button type="button" id="updateButton" class="buttonActualizar">Actualizar</button>
+                                <button type="button" id="deleteButton" class="buttonBorrar">Borrar</button>
+                            </form>
+                            <a href="05-sucursal.html" class="buttonSucursalInicio">Inicio</a><br>
+                                                        
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="details" id="details-section">
+                <div class="row">
+                    <div class="col">
+                        <div class="table-container">
+                            <table id="dataTable" class="table table-success table-striped align-middle">
+                                <thead class="sticky-header">
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Horario</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Dirección</th>
+                                        <th scope="col">Latitud</th>
+                                        <th scope="col">Longitud</th>
+                                        <th scope="col">URL</th>
+                                        <th scope="col">Imagen</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tblProductos">
+                                    <!-- Aquí se agregarán las filas de productos -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        </div>
+    </div>
+    <script src="js/09-act-borrSucursal.js"></script>
+</body>
+</html>

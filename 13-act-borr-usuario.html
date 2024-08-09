@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar/Borrar Usuario</title>
+    <link rel="stylesheet" href="css/estiloos-sucursal.css">
+</head>
+<body>
+    <div class="division">
+        <div class="main-content"> 
+            <div class="login-container">
+                <div class="login-box11">
+                    <div class="logo2">
+                        <img src="imagenes/logozap.png" alt="Logo">
+                    </div>
+                    <div class="login-box22">
+                        <a href="12-buscarusuario.html" class="back-icon2">
+                            <img src="imagenes/flecha.png" alt="Volver">
+                        </a>
+                        <h2>Actualizar/Borrar Usuario</h2><br><br><br><br><br><br>
+                        <div class="form-container">
+                            <form id="dataForm">
+                                <div class="input-groupregcentrado">
+                                    <label for="id">
+                                        <img src="imagenes/iconoid.png" alt="Id" class="icon">    
+                                        ID:
+                                    </label>
+                                    <input type="text" id="id" name="id" required readonly disabled>
+                                </div>  
+                                <div class="input-groupregcentrado">
+                                    <label for="nombre">
+                                        <img src="imagenes/icononombre.png" alt="Nombre" class="icon">    
+                                        Nombre:
+                                    </label>
+                                    <input type="text" id="nombre" name="nombre" required>
+                                </div>
+                                <div class="input-groupregcentrado">
+                                    <label for="contraseña">
+                                        <img src="imagenes/iconcontraseña.png" alt="Contraseña" class="icon">    
+                                        Contraseña:
+                                    </label>
+                                    <input type="text" id="contraseña" required>
+                                </div>
+                                <br>
+                                <button type="button" id="updateButton" class="buttonActualizar2">Actualizar</button>
+                                <button type="button" id="deleteButton" class="buttonBorrar2">Borrar</button>
+                            </form>
+                            <a href="10-usuario.html" class="buttonSucursalInicio">Inicio</a><br>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+    <script src="js/13-act-borr-usuario.js"></script>
+</body>
+</html>

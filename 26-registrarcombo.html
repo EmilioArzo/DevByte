@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Combo</title>
+    <link rel="stylesheet" href="css/estiloos-sucursal.css">
+</head>
+<body>
+    <div class="division">
+        <div class="main-content">  
+    
+    <div class="login-container">
+        <div class="login-box11">
+            <div class="logo2">
+                <img src="imagenes/logozap.png" alt="Logo">
+            </div>
+            
+            <div class="login-box22">
+                <a href="25-combo.html" class="back-icon2">
+                    <img src="imagenes/flecha.png" alt="Volver">
+                </a>
+                
+                <h2>Registrar Combo</h2><br><br><br>
+
+                <div class="form-container">
+                    <form id="dataForm">                    
+                    
+                        <div class="input-groupreg">
+                            <label for="id">
+                            <img src="imagenes/iconoid.png" alt="" class="icon">    
+                            ID:</label>
+                            <input type="text" id="id" name="id" required readonly disabled="" >
+                        </div>
+                        
+                        <div class="input-groupreg">
+                            <label for="nombre">
+                            <img src="imagenes/icononombre.png" alt="" class="icon">    
+                            Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        
+                        <div class="input-groupreg">
+                            <label for="descripcion">
+                            <img src="imagenes/iconodescripcion.png" alt="" class="icon">    
+                            Descripcion:</label>
+                            <input type="text" id="descripcion" name="descripcion" required>
+                        </div>
+                            
+                        <div class="input-groupreg">
+                            <label for="precio">
+                            <img src="imagenes/iconoprecio.png" alt="" class="icon">    
+                            Precio:</label>
+                            <input type="text" id="precio" name="precio" required>
+                        </div>
+                            
+                        
+                        
+                        
+                        <div class="input-groupreg">
+                                    <label for="categoria">
+                                    <img src="imagenes/alimento.png" alt="" class="icon">    
+                                    Alimento:</label>
+                            <select id="categoria" name="categoria"  required>
+                                        <option value="">Selecciona un Alimento</option>
+                                        <option value="Cangreburger">Cangreburger</option>
+                                        <option value="Nachos">Nachos</option>
+                                        <option value="Pizza">Pizza</option>
+                                    </select>
+                                </div>
+                        
+                         <div class="input-groupreg">
+                                    <label for="bebida">
+                                    <img src="imagenes/bebida.png" alt="" class="icon">    
+                                    Bebida:</label>
+                            <select id="bebida" name="bebida"  required>
+                                        <option value="">Selecciona una Bebida</option>
+                                        <option value="Azulito">Azulito</option>
+                                        <option value="Coca Cola">Coca Cola</option>
+                                        <option value="Agua de horchata">Agua de horchata</option>
+                                    </select>
+                                </div>
+                        
+                        
+                        
+                        
+                      
+                        <div>
+                            <label for="imagen" class="imglabel">
+                                <img src="imagenes/subirimagen.png" alt="Imagen" >    
+                                Imagen:</label>
+                            <input type="file" id="imagen" name="imagen" accept="image/*" class="ola4" required="">
+                        </div>
+                        
+                        <button type="submit" class="submit-buttonR">Registrar</button>
+                        
+                        </form>
+                    
+                    <a href="25-combo.html" class="buttonSucursalInicio">Inicio</a><br>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+      
+       <br><br>
+            
+            
+            <div class="details" id="details-section">
+                <div class="row">
+                    <div class="col">
+                        <div class="table-container">
+                            <table id="dataTable" class="table table-success table-striped align-middle">
+                                <thead class="sticky-header">
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Descripcion</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Alimento</th>
+                                        <th scope="col">Bebida</th>
+                                        <th scope="col">Imagen</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tblProductos">
+                                    <!-- Aquí se agregarán las filas de productos -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            
+      
+    
+    
+        </div>
+        </div>
+    <script src="js/26-registarCombo.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

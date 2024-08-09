@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "nombre": "ola",
+        "descripcion": "bebida hidratante azul",
+        "precio": "20 peso",
+        "categoria": "Bebida alcohólica",
+        "imagen": ""
+    },
+    {
+        "id": "2",
+        "nombre": "coca cola",
+        "descripcion": "que rica coca",
+        "precio": "18 peso",
+        "categoria": "Energética",
+        "imagen": ""
+    }
+]

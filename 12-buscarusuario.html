@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Usuario</title>
+    <link rel="stylesheet" href="css/estiloos.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box11">
+            <div class="logo2">
+                <img src="imagenes/logozap.png" alt="Logo">
+            </div>
+            <div class="login-box22">
+                <a href="10-usuario.html" class="back-icon2">
+                    <img src="imagenes/flecha.png" alt="Volver">
+                </a>
+                <h2>Buscar Usuario</h2><br><br><br><br>
+                <div class="input-group3"> 
+                    <label for="nombre">
+                    <img src="imagenes/icononombre.png" alt="Nombre" class="icon">  
+                    Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="info-section2" id="userInfo" style="display:none;">
+                    <h4 id="userName"></h4>
+                    <div class="description2">
+                        <p id="userDescription">Descripción del usuario...</p>
+                    </div>
+                </div>
+                <button type="button" id="buscarButton" class="buttonBuscarUsuario">Buscar</button><br>    
+                
+                <a href="13-act-borr-usuario.html" class="buttonActualizarBorrarUsuario">Actualizar/Borrar</a><br> 
+                
+                <a href="10-usuario.html" class="buttonInicioUsuario">Inicio</a><br>
+            </div>
+        </div>
+    </div>
+    <script src="js/12-buscarUsuario.js"></script>
+</body>
+</html>

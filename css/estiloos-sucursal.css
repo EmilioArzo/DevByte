@@ -1,0 +1,961 @@
+/* Estilos para la página de fondo */
+body {
+    font-family: Arial, sans-serif; /* Familia de fuentes y tipo base */
+    margin: 0; /* Elimina el margen predeterminado */
+    height: 100vh; /* 100% de la altura de la ventana */
+    display: flex; /* Flexbox para el diseño */
+    justify-content: center; /* Centrado horizontal del contenido */
+    align-items: center; /* Centrado vertical del contenido */
+    background: url('../imagenes/mocos2.jpg') center center; /* Imagen de fondo */
+    background-size: cover; /* Cubrir toda la pantalla */
+    min-height: 140vh;
+}
+
+
+
+/* -------------------------------------------------------- */
+
+          /* CONTENEDORES */
+
+/* CONTENEDOR PRINCIPAL (DE ESTE NO SE DEBE CREAR OTRAS VARIANTES)*/
+.login-container {
+    display: flex; /* Flexbox para el diseño */
+    justify-content: center; /* Centrado horizontal del contenido */
+    align-items: center; /* Centrado vertical del contenido */
+    height: 100%; /* 100% de la altura del contenedor principal */
+    width: 100%; /* 100% del ancho del contenedor principal */
+}
+
+/* CONTENEDOR PRINCIPAL (NARANJA) */
+.login-box {
+    background-color: #E73F0B; /* Color de fondo naranja */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Borde redondeado */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Alineación del texto */
+    width: 660px; /* Ancho del contenedor */
+    height: 420px; /* Altura del contenedor */
+    display: flex; /* Flexbox para el diseño */
+    flex-direction: column; /* Diseño en columna */
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    position: relative; /* Posición relativa para elementos posicionados */
+}
+
+/* CONTENEDOR PRINCIPAL (AMARILLO) */
+.login-box2 {
+    background-color: #f7da72; /* Color de fondo amarillo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Borde redondeado */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Alineación del texto */
+    width: 550px; /* Ancho del contenedor */
+    height: 280px; /* Altura del contenedor */
+    display: flex; /* Flexbox para el diseño */
+    flex-direction: column; /* Diseño en columna */
+    justify-content: flex-start; /* Alineación vertical */
+    align-items: flex-start; /* Alineación horizontal */
+    padding-left: 0;
+    position:relative;
+}
+.login-box22 form {
+    align-self: flex-start; /* Alineación del formulario a la izquierda */
+    width: 100%; /* Ancho completo del formulario */
+}
+
+
+
+/* CONTENEDOR SECUNDARIO PARA OTRAS PAGINAS (MAS GRANDE) (NARANJA)   */
+.login-box11 {
+    background-color: #E73F0B; /* Color de fondo naranja */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Borde redondeado */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Alineación del texto */
+    width: 900px; /* Ancho del contenedor */
+    height: 450px; /* Altura del contenedor */
+    display: flex; /* Flexbox para el diseño */
+    flex-direction: column; /* Diseño en columna */
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    position: relative; /* Posición relativa para elementos posicionados */
+}
+
+/* CONTENEDOR SECUNDARIO PARA OTRAS PAGINAS (MAS GRANDE) (AMARILLO) */
+.login-box22 {
+    background-color: #f7da72; /* Color de fondo amarillo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Borde redondeado */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Alineación del texto */
+    width: 810px; /* Ancho del contenedor */
+    height: 360px; /* Altura del contenedor */
+    display: flex; /* Flexbox para el diseño */
+    flex-direction: column; /* Diseño en columna */
+    justify-content: flex-start; /* Alineación vertical */
+    align-items: center; /* Alineación horizontal */
+}
+
+/* -------------------------------------------------------- */
+
+             /* LOGOS */
+
+/* LOGO PARA LA PAGINA PRINCIPAL */
+.logo {
+    position: absolute; /* Posición absoluta */
+    top: -110px; /* Desde arriba */
+    left: 50%; /* Desde la izquierda */
+    transform: translateX(-50%); /* Centrado horizontal */
+}
+
+.logo img {
+    width: 80px; /* Ancho de la imagen */
+    height: 80px; /* Altura de la imagen */
+    border-radius: 50%; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+
+/* LOGO PARA LAS DEMAS PAGINAS */
+.logo2 {
+    position: absolute; /* Posición absoluta */
+    top: -110px; /* Desde arriba */
+    left: 50%; /* Desde la izquierda */
+    transform: translateX(-50%); /* Centrado horizontal */
+}
+
+.logo2 img {
+    width: 150px; /* Ancho de la imagen */
+    height: 150px; /* Altura de la imagen */
+    
+}
+
+
+
+
+/* -------------------------------------------------------- */
+
+            /* TITULOS */
+            
+/* TITULO DE LAS PAGINAS DONDE EL USUARIO IDENTIFICARA EN CUAL SE ENCUENTRA SE TIENE QUE UTILIZAR H2*/
+/* CONTENEDOR PRINCIPAL (AMARILLO) */
+.login-box2 h2 {
+    margin: 0; /* Margen cero */
+    padding: 10px; /* Relleno interno */
+    color: white; /* Color del texto */
+    background-color: #A11F0C; /* Color de fondo */
+    border-radius: 100px; /* Borde redondeado */
+    width: 700px; /* Ancho del título */
+    height: 50px; /* Altura del título */
+    box-sizing: border-box; /* Caja de borde */
+    display: inline-block; /* Elemento en línea */
+    line-height: 1; /* Altura de línea */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-bottom: 4px solid black; /* Borde inferior */
+    position: absolute; /* Posición absoluta */
+    top: 50px; /* Desde arriba */
+    left: 50%; /* Desde la izquierda */
+    transform: translateX(-50%); /* Centrado horizontal */
+}
+
+
+/* TITULO DE LAS PAGINAS DONDE EL USUARIO IDENTIFICARA EN CUAL SE ENCUENTRA SE TIENE QUE UTILIZAR H2*/
+/* CONTENEDOR SECUNDARIO (AMARILLO) (MAS GRANDE) */
+.login-box22 h2 {
+    margin: 0; /* Margen cero */
+    padding: 10px; /* Relleno interno */
+    color: white; /* Color del texto */
+    background-color: #A11F0C; /* Color de fondo */
+    border-radius: 100px; /* Borde redondeado */
+    width: 400px; /* Ancho del título */
+    height: 50px; /* Altura del título */
+    box-sizing: border-box; /* Caja de borde */
+    display: inline-block; /* Elemento en línea */
+    line-height: 1; /* Altura de línea */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-bottom: 4px solid black; /* Borde inferior */
+    position: absolute; /* Posición absoluta */
+    top: 37px; /* Desde arriba */
+    left: 50%; /* Desde la izquierda */
+    transform: translateX(-50%); /* Centrado horizontal */
+}
+
+
+
+/* -------------------------------------------------------- */
+
+           /* FLECHAS REGRESO */
+
+/* Estilo para el ícono de regreso 1*/
+.back-icon {
+    position: absolute;
+    top: 90px; /* orientacion vertical de la flecha para regresar al index */
+    left: 75px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.back-icon img {
+    width: 27px; /* Ajustar el tamaño del ícono */
+    height: 27px;
+}
+
+
+
+/* Estilo para el ícono de regreso 2 PARA LAS PAGINAS CON CONTENEDORES MAS GRANDES */
+.back-icon2 {
+    position: absolute;
+    top: 70px; /* orientacion vertical de la flecha para regresar al index */
+    left: 70px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.back-icon2 img {
+    width: 35px; /* Ajustar el tamaño del ícono */
+    height: 35px;
+}
+
+.img2Sucursal{
+    margin: 30px; /* Margen cero */
+    position: absolute;
+    width: 170px; /* Ajustar el tamaño del ícono */
+    height: 150px;
+    position: absolute;
+    top: 100px; /* orientacion vertical de la flecha para regresar al index */
+    left: 600px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+/* -------------------------------------------------------- */
+
+
+/* CAJAS DE TEXTO DONDE EL USUARIO INGRESARA LOS DATOS */
+
+/* Grupo de entradas de texto */
+.input-group {
+    margin-bottom: 2px; /* Margen inferior */
+    text-align: left; /* Alineación del texto */
+    width: 330px; /* Ancho del grupo */
+    display: flex;
+    align-items: center;
+}
+
+.input-group label {
+    display: flex; /* Mostrar como bloque */
+    margin-bottom: 5%; /* Margen inferior */
+    font-weight: bold; /* Peso de la fuente */
+    margin-right: 0px;
+}
+
+.input-group .icon {
+    width: 24px; /* Ancho de la imagen de icono */
+    margin-right: 10px; /* Margen derecho */
+}
+
+    .input-group input {
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 8px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    margin-left: 200px;
+    position: relative;
+}
+
+.input-groupActBorra{
+    margin-bottom: 15px;
+    text-align: left;
+    width: 330px;
+}
+
+.input-groupActBorra label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    position: absolute;
+    left: 120px;
+}
+.input-groupActBorra .icon{
+    width: 24px;
+    margin-right: 5px;
+
+}
+
+
+.input-groupActBorra input {
+    width: calc(100%-200px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+    position: relative;
+    left: 0px;
+}
+
+.input-group2 {
+    margin-bottom: 15px; /* Margen inferior */
+    text-align: left; /* Alineación del texto */
+    width: 330px; /* Ancho del grupo */
+    
+}
+
+.input-group2 label {
+    display: block; /* Mostrar como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold; /* Peso de la fuente */
+    position: absolute;
+    left: 80px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.input-group2 .icon {
+    width: 24px; /* Ancho de la imagen de icono */
+    margin-right: 5px; /* Margen derecho */
+}
+
+    .input-group2 input {
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    left: 200px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.input-groupreg select{
+    width: 220px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    left: 170px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+/* -------------------------------------------------------- */
+
+           /* BOTONES */
+
+/* Estilo del botón de envío del formulario */
+.submit-buttonR {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 390px; /* orientacion vertical de la flecha para regresar al index */
+    left: 610px; /* orientacion horizontal de la flecha para regresar al index */
+
+}
+
+.submit-buttonR:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+.submit-buttonRcentrado {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 390px; /* orientacion vertical de la flecha para regresar al index */
+    left: 410px; /* orientacion horizontal de la flecha para regresar al index */
+
+}
+
+.submit-buttonRcentrado:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+.submit-buttonB {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 0px 0px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    left: 400px;
+    position: relative;
+}
+
+.submit-buttonB:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+
+.buttonSucursalInicio {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 390px; /* orientacion vertical de la flecha para regresar al index */
+    left: 740px; /* orientacion horizontal de la flecha para regresar al index */
+
+}
+.buttonSucursalInicio:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+
+
+
+/* Estilo de los botones para cambiar de página (TAMAÑO INICIAR SESION)*/
+.button {
+    display: inline-block; /* Mostrar como bloque en línea */
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 30px 40px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-decoration: none; /* Elimina subrayado de enlaces */
+    margin: 10px; /* Espacio entre botones */
+}
+
+.button:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+.form-container {
+    display: flex; /* Flexbox para el diseño */
+    flex-direction: row; /* Diseño en fila */
+    width: 100%; /* Ancho completo del contenedor */
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: flex-start; /* Alineación en la parte superior */
+}
+.login-box22 form {
+    width: 70%; /* Ancho del formulario */
+}
+
+.image-upload {
+    width: 35%; /* Ancho del apartado de subida de imagen */
+    display: flex; /* Flexbox para el diseño */
+    flex-direction: column; /* Diseño en columna */
+    align-items: center; /* Alineación central */
+    justify-content: center; /* Alineación central */
+}
+
+
+
+/* Estilos específicos para el contenedor de sucursal */
+.sucursal-container {
+    width: 450px; /* Ancho del contenedor */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 20px; /* Borde curvo */
+    background-color: #f0f0f0; /* Color de fondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.sucursal-container .header {
+    text-align: center; /* Alineación central del texto */
+    font-weight: bold; /* Texto en negritas */
+    margin-bottom: 15px; /* Margen inferior */
+    font-size: larger;
+}
+
+.sucursal-container .content {
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid black; /* Borde negro */
+    margin-top: 15px; /* Margen superior */
+}
+
+.sucursal-container .content p {
+    margin-bottom: 10px; /* Margen inferior para párrafos */
+}
+
+.button-container {
+    display: flex; /* Flexbox para alinear los botones */
+    justify-content: center; /* Centrado horizontal */
+    margin-top: 30px; /* Margen superior */
+    margin-right: 5%;
+}
+.custom-update-button,
+.custom-home-button {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Borde del botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 0 5px; /* Margen entre botones */
+    
+}
+img-sucursal {
+    width: 20px; /* Ancho de la imagen */
+    height: 60px; /* Altura de la imagen */
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.imgreg{
+    margin: 0px;
+    width: 170px; /* Ajustar el tamaño del ícono */
+    height: 150px;
+    
+}
+
+/*
+.imgreg2{
+    
+    top:100px;
+    left: 800px; /* orientacion horizontal de la flecha para regresar al index *
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Grupo de entradas de texto */
+.input-groupreg {
+    margin-bottom: 15px; /* Margen inferior */
+    text-align: left; /* Alineación del texto */
+    width: 330px; /* Ancho del grupo */
+    
+}
+
+.input-groupreg label {
+    display: block; /* Mostrar como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold; /* Peso de la fuente */
+    position: absolute;
+    left: 80px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.input-groupreg .icon {
+    width: 24px; /* Ancho de la imagen de icono */
+    margin-right: 5px; /* Margen derecho */
+}
+
+    .input-groupreg input {
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 8px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    left: 170px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+
+
+
+
+
+/* Grupo de entradas de texto */
+.input-groupregcentrado {
+    margin-bottom: 15px; /* Margen inferior */
+    text-align: left; /* Alineación del texto */
+    width: 330px; /* Ancho del grupo */
+    
+}
+
+.input-groupregcentrado label {
+    display: block; /* Mostrar como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold; /* Peso de la fuente */
+    position: absolute;
+    left: 190px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.input-groupregcentrado .icon {
+    width: 24px; /* Ancho de la imagen de icono */
+    margin-right: 5px; /* Margen derecho */
+}
+
+    .input-groupregcentrado input {
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 8px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    left: 290px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOTON LADO DERECHO INICIO BEBIDA (SE USARA ESTE MISMO EN TODAS LAS PAGINAS DE BEBIDA)*/
+.buttonBorrar {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 320px; /* orientacion vertical de la flecha para regresar al index */
+    left: 736px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.buttonBorrar:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+.buttonBorrar2 {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 370px; /* orientacion vertical de la flecha para regresar al index */
+    left: 480px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.buttonBorrar2:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+
+
+
+   /* BOTON LADO IZQUIERDO ACTUALIZAR/BORRAR*/
+.buttonActualizar {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 15px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 320px; /* orientacion vertical de la flecha para regresar al index */
+    left: 590px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.buttonActualizar:hover {
+     background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+
+
+.buttonActualizar2 {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 15px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 370px; /* orientacion vertical de la flecha para regresar al index */
+    left: 350px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.buttonActualizar2:hover {
+     background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* estiloos.css */
+
+/* Estilos para las filas y columnas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 1;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Estilos para la tabla */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Estilos para la tabla, similar a table-success y table-striped */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table-success {
+    background-color: #d4edda;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.details {
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 90px; /* Ajusta este valor según sea necesario */
+    display: block;
+    border-radius: 15px;
+    margin-bottom: 30px; /* Añadir un margen inferior para el espacio libre */
+}
+
+.table-container {
+    position: relative;
+    max-height: 300px; /* Ajusta este valor según sea necesario */
+    overflow-y: auto;
+    
+}
+
+.sticky-header th {
+    position: sticky;
+    top: -1px;
+    background-color: #f8f9fa; /* Ajusta el color de fondo según sea necesario */
+    z-index: 1;
+}
+
+
+
+
+
+
+
+          /* SUUCUURSAAAAAL */
+
+/* IMAGEEEEEEN PARA SUBIR IMAGENEEEEES */
+
+.imglabel{
+    display: block; /* Mostrar como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold; /* Peso de la fuente */
+    position: absolute;
+    top:270px;
+    left: 530px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.imglabel img{
+    display: block; /* Mostrar como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold; /* Peso de la fuente */
+    margin: 0px;
+    width: 170px; /* Ajustar el tamaño del ícono */
+    height: 150px;
+    position: absolute;
+    top:-150px;
+    left: 100px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+/* input */
+.ola{
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    top:-160px;
+    left: 365px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+
+
+
+
+#id {
+    text-align: center; /* Centra el texto dentro del input */
+    appearance: textfield; /* Para evitar que el input type number muestre las flechas en algunos navegadores */
+}
+
+
+
+
+
+
+
+
+    /* BEBIDAAAAAAA */
+
+
+/* input */
+.ola2{
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    top:-90px;
+    left: 365px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.ola3{
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    top:-83px;
+    left: 365px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+
+/* select de categoria bebida */
+.input-groupreg select{
+    width: 220px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    left: 170px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+
+/* COMBOOOOOO */
+
+.ola4{
+    width: 200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    top:-130px;
+    left: 365px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+
+.alim-beb {
+    width: 2200px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    left: 250px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.input-group2 select{
+    width: 212px; /* Ajusta el ancho del input restando el ancho del icono y el margen */
+    padding: 5px; /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Borde redondeado */
+    position: relative;
+    left: 200px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#imagenAlimento {
+    display: block; /* Asegúrate de que la imagen esté visible */
+    max-width: 100%; /* Ajusta según sea necesario */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin-top: 10px; /* Espaciado opcional */
+}

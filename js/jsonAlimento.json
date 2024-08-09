@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "nombre": "Cangreburguer",
+        "descripcion": "la mejor hamburguesa",
+        "precio": "20 peso",
+        "categoria": "comida caliente",
+        "imagen": "imagenes/adonai.jpg"
+    },
+    {
+        "id": "2",
+        "nombre": "Nachos",
+        "descripcion": "nachos con queso",
+        "precio": "40 peso",
+        "categoria": "comida fria",
+        "imagen": "imagenes/burritos.jpeg"
+    },
+     {
+        "id": "3",
+        "nombre": "Pipo",
+        "descripcion": "pipo con queso",
+        "precio": "40 peso",
+        "categoria": "comida fria",
+        "imagen": "imagenes/burritos.jpeg"
+    }
+]

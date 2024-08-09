@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Usuario</title>
+    <link rel="stylesheet" href="css/estiloos-sucursal.css">
+</head>
+<body>
+    <div class="division">
+        <div class="main-content"> 
+            <div class="login-container">
+                <div class="login-box11">
+                    <div class="logo2">
+                        <img src="imagenes/logozap.png" alt="Logo">
+                    </div>
+                    <div class="login-box22">
+                        <a href="10-usuario.html" class="back-icon2">
+                            <img src="imagenes/flecha.png" alt="Volver">
+                        </a>
+                        <h2>Registrar Usuario</h2><br><br><br><br><br><br>
+                        <div class="form-container">
+                            <form id="dataForm">
+                                <div class="input-groupregcentrado">
+                                    <label for="id">
+                                        <img src="imagenes/iconoid.png" alt="" class="icon">    
+                                        ID:
+                                    </label>
+                                    <input type="text" id="id" name="id" required readonly disabled>
+                                </div>  
+                                <div class="input-groupregcentrado">
+                                    <label for="nombre">
+                                        <img src="imagenes/icononombre.png" alt="Id" class="icon">    
+                                        Nombre:
+                                    </label>
+                                    <input type="text" id="nombre" name="nombre" required>
+                                </div>
+                                <div class="input-groupregcentrado">
+                                    <label for="contraseña">
+                                        <img src="imagenes/iconcontraseña.png" alt="Usuario" class="icon">    
+                                        Contraseña:
+                                    </label>
+                                    <input type="text" id="contraseña" required>
+                                </div>
+                                <br>
+                                <button type="submit" class="submit-buttonRcentrado">Registrar</button>
+                            </form>
+                            <a href="10-usuario.html" class="buttonSucursalInicio">Inicio</a><br>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="details" id="details-section">
+                <div class="row">
+                    <div class="col">
+                        <div class="table-container">
+                            <table id="dataTable" class="table table-success table-striped align-middle">
+                                <thead class="sticky-header">
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Contraseña</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tblProductos">
+                                    <!-- Aquí se agregarán las filas de los usuarios -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+    <script src="js/11-registrarUsuario.js"></script>
+</body>
+</html>
+

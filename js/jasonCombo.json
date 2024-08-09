@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "nombre": "Azulito",
+        "descripcion": "bebida hidratante azul",
+        "precio": "20 peso",
+        "categoria": "pizza",
+        "bebida": "azulito",
+        "imagen": ""
+    },
+    {
+        "id": "2",
+        "nombre": "coca cola",
+        "descripcion": "que rica coca",
+        "precio": "18 peso",
+        "categoria": "chilaquiles",
+        "bebida": "coca cola",
+        "imagen": ""
+    }
+]
