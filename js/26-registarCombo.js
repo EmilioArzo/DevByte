@@ -183,4 +183,3 @@ function resetForm() {
     updateFoodList();
     updateDrinkList();
 }
-
