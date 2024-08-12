@@ -3,71 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Buscar Combo</title>
     <link rel="stylesheet" href="css/estiloos.css">
+    <style>
+        #messageContainer {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 20px;
+    border: 1px solid black;
+    z-index: 1000;
+    max-width: 80%; /* Ajusta el ancho máximo si es necesario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#messageContainer h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#messageContainer img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 50px auto; /* Alinea la imagen al centro */
+}
+
+#messageContainer p {
+    margin: 5px 0; /* Ajusta los márgenes para que el texto no se vea demasiado separado */
+}
+
+        
+
+    </style>
 </head>
 <body>
+    <!-- Contenedor para el mensaje flotante -->
+    <div id="messageContainer"></div>
+
     <div class="login-container">
         <div class="login-box11">
-            
             <div class="logo2">
                 <img src="imagenes/logozap.png" alt="Logo">
             </div>
-            
+
             <div class="login-box22">
-                
                 <a href="25-combo.html" class="back-icon2">
                     <img src="imagenes/flecha.png" alt="Volver">
                 </a>
-                
+
                 <h2>Buscar Combo</h2><br><br><br><br><br>
-                
-                
-                <form action="28-informacioncombo.html" method="post">
-                    
-                <div class="input-groupBuscBebida">
-                    <label for="id">
-                    <img src="imagenes/icononombre.png" alt="Id" class="icon">    
-                    Nombre:</label>
-                    <input type="text" id="id" name="id">
-                </div>
-                                
-                                   
-                 <div class="input-groupBuscBebida">
-                    <label for="alimento">
-                    <img src="imagenes/alimento.png" alt="Alimento" class="icon">    
-                    Alimento:</label>
-                    <select id="alimento" name="alimento" class="selectgroupBuscBebida">
-                    <option value="">Seleccionar un Alimento</option>    
-                    <option value="Cangreburger">Cangreburger</option>
-                    <option value="Nachos">Nachos</option>
-                    <option value="Pizza">Pizza</option>
-                    </select>
-                </div>
-                 
-                 <div class="input-groupBuscBebida">
-                    <label for="bebida">
-                    <img src="imagenes/bebida.png" alt="Bebida" class="icon">    
-                    Bebida:</label>
-                    <select id="bebida" name="bebida" class="selectgroupBuscBebida">
-                    <option value="">Seleccionar una Bebida</option>
-                    <option value="bebidas">Azulito</option>
-                    <option value="bebidas">Coca Cola</option>
-                    <option value="bebidas">Agua de horchata</option>
-                    </select>
-                </div>   
-                    
-                    
-                    
-                    
-                
-                <button type="submit" class="buttonBuscBebida2">Buscar</button>
+
+                <form>
+                    <div class="input-groupBuscBebida">
+                        <label for="id">
+                            <img src="imagenes/icononombre.png" alt="Id" class="icon">
+                            Nombre:
+                        </label>
+                        <input type="text" id="id" name="id">
+                    </div>
+
+                    <div class="input-groupBuscBebida">
+                        <label for="alimento">
+                            <img src="imagenes/alimento.png" alt="Alimento" class="icon">
+                            Alimento:
+                        </label>
+                        <select id="alimento" name="alimento" class="selectgroupBuscBebida">
+                            <option value="">Seleccionar un Alimento</option>
+                            <option value="Pizza">Pizza</option>
+                            <option value="Hamburguesa">Hamburguesa</option>
+                            <option value="Tacos">Tacos</option>
+                        </select>
+                    </div>
+
+                    <div class="input-groupBuscBebida">
+                        <label for="bebida">
+                            <img src="imagenes/bebida.png" alt="Bebida" class="icon">
+                            Bebida:
+                        </label>
+                        <select id="bebida" name="bebida" class="selectgroupBuscBebida">
+                            <option value="">Seleccionar una Bebida</option>
+                            <option value="Coca-Cola">Coca-Cola</option>
+                            <option value="Pepsi">Pepsi</option>
+                            <option value="Jugo">Jugo</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="buttonBuscBebida2">Buscar</button>
                 </form>
                 <a href="25-combo.html" class="buttonInicioBebida">Inicio</a><br>
             </div>
         </div>
     </div>
+
     
-    <script src="js/javalavaa.js"></script>
+
+    <!-- Incluir el archivo JavaScript -->
+    <script src="js/27-buscarCombo.js"></script>
 </body>
 </html>

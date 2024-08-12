@@ -1,20 +1,33 @@
-[
-    {
-        "id": "1",
-        "nombre": "Azulito",
-        "descripcion": "bebida hidratante azul",
-        "precio": "20 peso",
-        "categoria": "pizza",
-        "bebida": "azulito",
-        "imagen": ""
-    },
-    {
-        "id": "2",
-        "nombre": "coca cola",
-        "descripcion": "que rica coca",
-        "precio": "18 peso",
-        "categoria": "chilaquiles",
-        "bebida": "coca cola",
-        "imagen": ""
-    }
-]
+{
+    "combos": [
+        {
+            "id": "1",
+            "name": "Cuates",
+            "description": "Pizza grande y Coca-Cola 600 ml",
+            "price": 100.00,
+            "foods": [
+                { "food": "Pizza", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Coca-Cola", "quantity": 1 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+         {
+            "id": "2",
+            "name": "Familia",
+            "description": "Pizza mediana con Hamburguesas y una Pepsi de 1.5 lt",
+            "price": 200.00,
+            "foods": [
+                { "food": "Hamburguesa", "quantity": 4 },
+                { "food": "Pizza", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Pepsi", "quantity": 2 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        }
+        
+    ]
+}
+
