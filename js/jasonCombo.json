@@ -11,8 +11,8 @@
             "drinks": [
                 { "drink": "Coca-Cola", "quantity": 1 }
             ],
-            "imageUrl": "imagenes/adonai.jpg"
-        },
+            "imageUrl": "imagenes/combo.png"
+        }, 
          {
             "id": "2",
             "name": "Familia",
@@ -26,7 +26,116 @@
                 { "drink": "Pepsi", "quantity": 2 }
             ],
             "imageUrl": "imagenes/adonai.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Individual",
+            "description": "Hamburguesa y una Pepsi de 600 ml",
+            "price": 200.00,
+            "foods": [
+                { "food": "Hamburguesa", "quantity": 4 },
+                { "food": "Pizza", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Pepsi", "quantity": 2 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Individual",
+            "description": "Hamburguesa y una Pepsi de 600 ml",
+            "price": 200.00,
+            "foods": [
+                { "food": "Hamburguesa", "quantity": 4 },
+                { "food": "Pizza", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Pepsi", "quantity": 2 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Fiesta",
+            "description": "Pizza grande, Hamburguesa y Jugo de 600 ml",
+            "price": 150.00,
+            "foods": [
+                { "food": "Pizza", "quantity": 1 },
+                { "food": "Hamburguesa", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Jugo", "quantity": 1 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+        {
+            "id": "6",
+            "name": "Dúo",
+            "description": "Pizza mediana y Coca-Cola de 1.5 lt",
+            "price": 120.00,
+            "foods": [
+                { "food": "Pizza", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Coca-Cola", "quantity": 1 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Combo Rápido",
+            "description": "Hamburguesa y Pepsi de 1.5 lt",
+            "price": 130.00,
+            "foods": [
+                { "food": "Hamburguesa", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Pepsi", "quantity": 1 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+        {
+            "id": "8",
+            "name": "Dúo Grande",
+            "description": "Pizza grande y Pepsi de 600 ml",
+            "price": 140.00,
+            "foods": [
+                { "food": "Pizza", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Pepsi", "quantity": 1 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+        {
+            "id": "9",
+            "name": "Combo Familiar",
+            "description": "Pizza grande, Hamburguesa y Coca-Cola de 600 ml",
+            "price": 170.00,
+            "foods": [
+                { "food": "Pizza", "quantity": 1 },
+                { "food": "Hamburguesa", "quantity": 1 }
+            ],
+            "drinks": [
+                { "drink": "Coca-Cola", "quantity": 1 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
+        },
+        { 
+            "id": "10",
+            "name": "Mini Fiesta",
+            "description": "Tacos y Jugo de 600 ml",
+            "price": 110.00,
+            "foods": [
+                { "food": "Tacos", "quantity": 5 }
+            ],
+            "drinks": [
+                { "drink": "Jugo", "quantity": 1 }
+            ],
+            "imageUrl": "imagenes/adonai.jpg"
         }
+        
         
     ]
 }
