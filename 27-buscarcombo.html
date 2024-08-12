@@ -6,19 +6,20 @@
     <title>Buscar Combo</title>
     <link rel="stylesheet" href="css/estiloos.css">
     <style>
+
         #messageContainer {
     display: none;
     position: fixed;
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
-    background: white;
+    background: #f7da72;
     padding: 20px;
-    border: 1px solid black;
+    border: 5px solid #E73F0B;
     z-index: 1000;
     max-width: 80%; /* Ajusta el ancho máximo si es necesario */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: left;
 }
 
 #messageContainer h2 {
@@ -28,18 +29,42 @@
     text-align: justify;
 }
 
+#messageContainer ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
 #messageContainer img {
     max-width: 100px;
     max-height: 100px;
     display: block;
-    margin: 50px auto; /* Alinea la imagen al centro */
+    margin: 20px auto; /* Alinea la imagen al centro */
 }
 
 #messageContainer p {
     margin: 5px 0; /* Ajusta los márgenes para que el texto no se vea demasiado separado */
+    text-align: left;
 }
 
-        
+
+.comboab {
+    background-color: #BBCF4A; /* Color de fondo del botón */
+    color: black; /* Color del texto */
+    border: 2px solid black; /* Añade borde al botón */
+    padding: 10px 20px; /* Relleno interno */
+    border-radius: 10px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    position: absolute;
+    top: 446px; /* orientacion vertical de la flecha para regresar al index */
+    left: 385px; /* orientacion horizontal de la flecha para regresar al index */
+}
+
+.comboab:hover {
+    background-color: #5a9e54; /* Color de fondo al pasar el cursor */
+}
+
 
     </style>
 </head>
@@ -97,6 +122,9 @@
 
                     <button type="submit" class="buttonBuscBebida2">Buscar</button>
                 </form>
+
+                <a href="29-act-borr.html" class="comboab">Actualizar/Borrar</a><br>
+
                 <a href="25-combo.html" class="buttonInicioBebida">Inicio</a><br>
             </div>
         </div>

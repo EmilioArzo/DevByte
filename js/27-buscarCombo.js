@@ -29,11 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 })
                 .catch(error => {
                     console.error('Error al obtener los datos del JSON:', error);
-                    messageContainer.innerHTML = '<p>Error al obtener los datos.</p>';
-                    messageContainer.style.display = 'block';
-                    setTimeout(() => {
-                        messageContainer.style.display = 'none';
-                    }, 10000);
+                    showMessage('Error al obtener los datos.');
                 });
         } else {
             searchCombos(combos, nombre, alimento, bebida); // Pasar los filtros
@@ -66,13 +62,41 @@ document.addEventListener('DOMContentLoaded', function () {
                 `;
             });
             resultsHtml += '</ul>';
-            messageContainer.innerHTML = resultsHtml;
+            showMessage(resultsHtml);
         } else {
-            messageContainer.innerHTML = '<p>No se encontraron resultados.</p>';
+            showMessage('<p>No se encontraron resultados.</p>');
         }
+    }
+
+    function showMessage(messageHtml) {
+        // Limpia el contenedor del mensaje y configura el botón de cierre
+        messageContainer.innerHTML = messageHtml;
+        const closeButton = document.createElement('button');
+        closeButton.id = 'closeButton';
+        closeButton.innerHTML = 'X';
+        closeButton.style.position = 'absolute';
+        closeButton.style.top = '10px';
+        closeButton.style.right = '10px';
+        closeButton.style.backgroundColor = 'transparent';
+        closeButton.style.border = 'none';
+        closeButton.style.color = '#E73F0B';
+        closeButton.style.fontSize = '30px';
+        closeButton.style.cursor = 'pointer';
+        closeButton.style.zIndex = '1000';
+        
+        messageContainer.appendChild(closeButton);
+        
+        // Muestra el contenedor del mensaje
         messageContainer.style.display = 'block';
+        
+        // Oculta el mensaje automáticamente después de un tiempo
         setTimeout(() => {
             messageContainer.style.display = 'none';
-        }, 10000);
+        }, 10000); // Ajusta el tiempo (en milisegundos) según sea necesario
+
+        // Agrega el evento para el botón de cierre
+        closeButton.addEventListener('click', function () {
+            messageContainer.style.display = 'none';
+        });
     }
 });

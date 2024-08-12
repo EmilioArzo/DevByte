@@ -1,134 +1,216 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar Sucursal</title>
-    <link rel="stylesheet" href="css/estiloos-sucursal.css">
+    <title>Actualizar/Borrar Combo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Tu estilo existente */
+        #imagePreview {
+            width: 50%;
+            height: auto;
+            max-height: 200px;
+            margin-top: 10px;
+        }
+
+        body {
+            background-image: url('imagenes/mocos2.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            margin: 0;
+            padding: 0;
+            position: relative;
+            height: 100vh;
+        }
+
+        #backgroundContainer {
+            position: absolute;
+            top: -30px;
+            left: 270px;
+            width: 1200px;
+            height: 900px;
+            background-color: #E73F0B;
+            z-index: -1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .custom-thead {
+            background-color: #E73F0B;
+            color: #ffffff;
+        }
+
+        .custom-card-header {
+            background-color: #E73F0B;
+        }
+
+        .custom-btn {
+            background-color: #F4EC6A;
+            border-color: #000000;
+        }
+
+        .custom-btn:hover {
+            background-color: #D9D25B;
+            border-color: #000000;
+        }
+
+        .custom-btn2 {
+            background-color: #BBCF4A;
+            border-color: #000000;
+        }
+
+        .custom-btn2:hover {
+            background-color: #A2B340;
+            border-color: #000000;
+        }
+
+        .custom-btnInicio {
+            background-color: #BBCF4A;
+            border-color: #000000;
+            position: relative;
+            right: -600px;
+            padding: 6px 52px;
+            font-size: 16px;
+        }
+
+        .custom-btnInicio:hover {
+            background-color: #5a9e54;
+            border-color: #000000;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="division">
-        <div class="main-content">    
-            <div class="login-container">
-                <div class="login-box11">
-                    <div class="logo2">
-                        <img src="imagenes/logozap.png" alt="Logo">
-                    </div>
-                    <div class="login-box22">
-                        <a href="28-informacioncombo.html" class="back-icon2">
-                            <img src="imagenes/flecha.png" alt="Volver">
-                        </a>
-                        <h2>Actualizar/Borrar Combo</h2><br><br><br><br>
-                        <div class="form-container">
-                            <form id="dataForm">                    
-                                <div class="input-group2">
-                                    <label for="id">
-                                    <img src="imagenes/iconoid.png" alt="" class="icon">    
-                                    ID:</label>
-                                    <input type="number" id="id" required readonly disabled="">
-                                </div>
-                                
-                                <div class="input-group2">
-                                    <label for="nombre">
-                                    <img src="imagenes/icononombre.png" alt="" class="icon">    
-                                    Nombre:</label>
-                                    <input type="text" id="nombre" required>
-                                </div>
-                                
-                                <div class="input-group2">
-                                    <label for="descripcion">
-                                        <img src="imagenes/iconodescripcion.png" alt="" class="icon">    
-                                    Descripcion:</label>
-                                    <input type="text" id="descripcion" required>
-                                </div>
-                                <div class="input-group2">
-                                    <label for="precio">
-                                        <img src="imagenes/iconoprecio.png" alt="" class="icon">    
-                                    Precio:</label>
-                                    <input type="text" id="precio" required>
-                                </div>
-                                
-                                 <div class="input-group2">
-                                    <label for="categoria">
-                                    <img src="imagenes/alimento.png" alt="" class="icon">    
-                                    Alimento:</label>
-                            <select id="categoria" name="categoria" required>
-                                        <option value="">Selecciona un Alimento</option>
-                                        <option value="Cangreburger">Cangreburger</option>
-                                        <option value="Nachos">Nachos</option>
-                                        <option value="Pizza">Pizza</option>
-                                    </select>
-                                </div>
-                        
-                         <div class="input-group2">
-                                    <label for="bebida">
-                                    <img src="imagenes/bebida.png" alt="" class="icon">    
-                                    Bebida:</label>
-                            <select id="bebida" name="bebida" required>
-                                        <option value="">Selecciona una Bebida</option>
-                                        <option value="Azulito">Azulito</option>
-                                        <option value="Coca Cola">Coca Cola</option>
-                                        <option value="Agua de horchata">Agua de horchata</option>
-                                    </select>
-                                </div>
-                         
-                               
-                                
-                                <div>
-                            <label for="imagen" class="imglabel">
-                                <img src="imagenes/subirimagen.png" alt="Imagen" >    
-                                Imagen:</label>
-                            <input type="file" id="imagen" name="imagen" accept="image/*" class="ola4" required="">
-                        </div>
-                                
-                                <button type="button" id="updateButton" class="buttonActualizar">Actualizar</button>
-                                <button type="button" id="deleteButton" class="buttonBorrar">Borrar</button>
-                            </form>
-                            <a href="25-combo.html" class="buttonSucursalInicio">Inicio</a><br>
-                                                        
-                            
-                            
-                        </div>
-                    </div>
-                </div>
+    
+    <div class="container my-5">
+        <div class="card">
+            <div class="card-header custom-card-header text-white">
+                <h2 class="mb-0">Actualizar/Borrar Combo</h2>
             </div>
-            
-            
-            <div class="details" id="details-section">
-                <div class="row">
-                    <div class="col">
-                        <div class="table-container">
-                            <table id="dataTable" class="table table-success table-striped align-middle">
-                                <thead class="sticky-header">
-                                    <tr>
-                                        <th scope="col">ID</th>
-                                        <th scope="col">Nombre</th>
-                                        <th scope="col">Descripcion</th>
-                                        <th scope="col">Precio</th>
-                                        <th scope="col">Alimento</th>
-                                        <th scope="col">Bebida</th>
-                                        <th scope="col">Imagen</th>
-                                        
-                                    </tr>
-                                </thead>
-                                <tbody id="tblProductos">
-                                    <!-- Aquí se agregarán las filas de productos -->
-                                </tbody>
-                            </table>
+            <div class="card-body">
+                <form id="comboForm">
+                    <div class="form-group">
+                        <label for="comboId">ID Combo:</label>
+                        <input type="text" class="form-control" id="comboId" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="comboName">Nombre Combo:</label>
+                        <input type="text" class="form-control" id="comboName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comboDescription">Descripción:</label>
+                        <input type="text" class="form-control" id="comboDescription" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comboPrice">Precio:</label>
+                        <input type="number" class="form-control" id="comboPrice" step="0.01" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comboImage">Imagen:</label>
+                        <input type="file" class="form-control-file" id="comboImage" accept="image/*" onchange="previewImage()">
+                        <img id="imagePreview" src="#" alt="Previsualización de la imagen" style="display: none;">
+                    </div>
+
+                    <h3>Alimentos</h3>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <select id="foodSelect" class="form-control">
+                                <option value="">Seleccionar alimento</option>
+                                <option value="Pizza">Pizza</option>
+                                <option value="Hamburguesa">Hamburguesa</option>
+                                <option value="Tacos">Tacos</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <input type="number" class="form-control" id="foodQuantity" placeholder="Cantidad" min="1">
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn custom-btn" onclick="addFood()">Agregar Alimento</button>
                         </div>
                     </div>
-                </div>
+                    <ul id="foodList" class="list-group my-3"></ul>
+
+                    <h3>Bebidas</h3>
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <select id="drinkSelect" class="form-control">
+                                <option value="">Seleccionar bebida</option>
+                                <option value="Coca-Cola">Coca-Cola</option>
+                                <option value="Pepsi">Pepsi</option>
+                                <option value="Jugo">Jugo</option>
+                            </select>
+                        </div>
+                        <div class="col-auto">
+                            <input type="number" class="form-control" id="drinkQuantity" placeholder="Cantidad" min="1">
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn custom-btn" onclick="addDrink()">Agregar Bebida</button>
+                        </div>
+                    </div>
+                    <ul id="drinkList" class="list-group my-3"></ul>
+
+                    <button type="button" class="btn custom-btn2" onclick="updateCombo()">Actualizar Combo</button>
+                    <button type="button" class="btn btn-danger" onclick="deleteCombo()">Eliminar Combo</button>
+                    
+                    <a href="25-combo.html" class="btn custom-btnInicio">Inicio</a>
+
+                </form>
             </div>
+        </div>
         
+        <br>
         
+        <div class="card mt-5">
+            <table class="table table-striped">
+                <thead class="custom-thead">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Alimentos</th>
+                        <th>Bebidas</th>
+                        <th>Imagen</th>
+                    </tr>
+                </thead>
+                <tbody id="comboList">
+                    <!-- Aquí se insertarán los combos registrados -->
+                </tbody>
+            </table>
         </div>
     </div>
+    
+    <br>
+    
+    <script>
+        function previewImage() {
+            const file = document.getElementById('comboImage').files[0];
+            const preview = document.getElementById('imagePreview');
+            const reader = new FileReader();
+
+            reader.onloadend = function() {
+                preview.src = reader.result;
+                preview.style.display = 'block';
+            }
+
+            if (file) {
+                reader.readAsDataURL(file);
+            } else {
+                preview.src = "";
+                preview.style.display = 'none';
+            }
+        }
+    </script>
     <script src="js/29-act-borrCombo.js"></script>
+   
 </body>
+
 </html>
-
-
-
-
-
-
