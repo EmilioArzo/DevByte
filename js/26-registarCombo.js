@@ -145,6 +145,7 @@ function registerCombo() {
         nextId++; // Incrementa el ID para el próximo combo
         updateComboId(); // Actualiza el ID en el formulario
         resetForm();
+        alert('Combo registrado correctamente.');
     } else {
         alert('Por favor completa todos los campos del formulario.');
     }
