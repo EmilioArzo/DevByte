@@ -333,13 +333,13 @@ body {
     background-color: #BBCF4A; /* Color de fondo del botón */
     color: black; /* Color del texto */
     border: 2px solid black; /* Añade borde al botón */
-    padding: 10px 20px; /* Relleno interno */
+    padding: 10px 28px; /* Relleno interno */
     border-radius: 10px; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     font-size: 16px; /* Tamaño de la fuente */
     position: absolute;
     top: 390px; /* orientacion vertical de la flecha para regresar al index */
-    left: 610px; /* orientacion horizontal de la flecha para regresar al index */
+    left: 560px; /* orientacion horizontal de la flecha para regresar al index */
 
 }
 
@@ -353,7 +353,7 @@ body {
     background-color: #BBCF4A; /* Color de fondo del botón */
     color: black; /* Color del texto */
     border: 2px solid black; /* Añade borde al botón */
-    padding: 10px 20px; /* Relleno interno */
+    padding: 10px 28px; /* Relleno interno */
     border-radius: 10px; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     font-size: 16px; /* Tamaño de la fuente */
@@ -397,13 +397,13 @@ body {
     background-color: #BBCF4A; /* Color de fondo del botón */
     color: black; /* Color del texto */
     border: 2px solid black; /* Añade borde al botón */
-    padding: 10px 20px; /* Relleno interno */
+    padding: 10px 40px; /* Relleno interno */
     border-radius: 10px; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     font-size: 16px; /* Tamaño de la fuente */
     position: absolute;
     top: 390px; /* orientacion vertical de la flecha para regresar al index */
-    left: 740px; /* orientacion horizontal de la flecha para regresar al index */
+    left: 720px; /* orientacion horizontal de la flecha para regresar al index */
 
 }
 .buttonSucursalInicio:hover {
@@ -633,13 +633,13 @@ img-sucursal {
     background-color: #BBCF4A; /* Color de fondo del botón */
     color: black; /* Color del texto */
     border: 2px solid black; /* Añade borde al botón */
-    padding: 10px 20px; /* Relleno interno */
+    padding: 10px 37px; /* Relleno interno */
     border-radius: 10px; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     font-size: 16px; /* Tamaño de la fuente */
     position: absolute;
     top: 320px; /* orientacion vertical de la flecha para regresar al index */
-    left: 736px; /* orientacion horizontal de la flecha para regresar al index */
+    left: 719px; /* orientacion horizontal de la flecha para regresar al index */
 }
 
 .buttonBorrar:hover {
@@ -652,7 +652,7 @@ img-sucursal {
     background-color: #BBCF4A; /* Color de fondo del botón */
     color: black; /* Color del texto */
     border: 2px solid black; /* Añade borde al botón */
-    padding: 10px 20px; /* Relleno interno */
+    padding: 10px 37px; /* Relleno interno */
     border-radius: 10px; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     font-size: 16px; /* Tamaño de la fuente */
@@ -675,13 +675,13 @@ img-sucursal {
     background-color: #BBCF4A; /* Color de fondo del botón */
     color: black; /* Color del texto */
     border: 2px solid black; /* Añade borde al botón */
-    padding: 10px 20px; /* Relleno interno */
+    padding: 10px 25px; /* Relleno interno */
     border-radius: 10px; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
-    font-size: 15px; /* Tamaño de la fuente */
+    font-size: 16px; /* Tamaño de la fuente */
     position: absolute;
     top: 320px; /* orientacion vertical de la flecha para regresar al index */
-    left: 590px; /* orientacion horizontal de la flecha para regresar al index */
+    left: 560px; /* orientacion horizontal de la flecha para regresar al index */
 }
 
 .buttonActualizar:hover {
@@ -696,13 +696,13 @@ img-sucursal {
     background-color: #BBCF4A; /* Color de fondo del botón */
     color: black; /* Color del texto */
     border: 2px solid black; /* Añade borde al botón */
-    padding: 10px 20px; /* Relleno interno */
+    padding: 10px 25px; /* Relleno interno */
     border-radius: 10px; /* Borde redondeado */
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     font-size: 15px; /* Tamaño de la fuente */
     position: absolute;
     top: 370px; /* orientacion vertical de la flecha para regresar al index */
-    left: 350px; /* orientacion horizontal de la flecha para regresar al index */
+    left: 335px; /* orientacion horizontal de la flecha para regresar al index */
 }
 
 .buttonActualizar2:hover {
